@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DF81DB59-D815-4CC3-ACCA-C8A18AFF557C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Altomovel</RootNamespace>
+    <AssemblyName>Altomovel</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Area 1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area 1.Designer.cs">
+      <DependentUpon>Area 1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area 10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area 10.Designer.cs">
+      <DependentUpon>Area 10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area 11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area 11.Designer.cs">
+      <DependentUpon>Area 11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area 2.Designer.cs">
+      <DependentUpon>Area 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area 3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area 3.Designer.cs">
+      <DependentUpon>Area 3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area 4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area 4.Designer.cs">
+      <DependentUpon>Area 4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area 5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area 5.Designer.cs">
+      <DependentUpon>Area 5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area 6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area 6.Designer.cs">
+      <DependentUpon>Area 6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area 7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area 7.Designer.cs">
+      <DependentUpon>Area 7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area 8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area 8.Designer.cs">
+      <DependentUpon>Area 8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area 9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area 9.Designer.cs">
+      <DependentUpon>Area 9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Area 1.resx">
+      <DependentUpon>Area 1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area 10.resx">
+      <DependentUpon>Area 10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area 11.resx">
+      <DependentUpon>Area 11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area 2.resx">
+      <DependentUpon>Area 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area 3.resx">
+      <DependentUpon>Area 3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area 4.resx">
+      <DependentUpon>Area 4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area 5.resx">
+      <DependentUpon>Area 5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area 6.resx">
+      <DependentUpon>Area 6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area 7.resx">
+      <DependentUpon>Area 7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area 8.resx">
+      <DependentUpon>Area 8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area 9.resx">
+      <DependentUpon>Area 9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
